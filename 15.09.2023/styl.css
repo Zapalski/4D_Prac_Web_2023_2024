@@ -1,0 +1,58 @@
+body{
+    font-family: Georgia;
+    text-align: center;
+}
+
+
+
+.GornyBaner, footer{
+    background-color: #4BA3C7;
+    color: white;
+    height: 80px;
+    font-size: 120%;
+}
+.BlokLewy{
+    float: left;
+}
+
+
+.BlokPrawy{
+    float: left;
+}
+.BlokLewy, .BlokPrawy{
+    background-color: #EFEFEF;
+    height: 400px;
+    width: 25%;
+
+}
+.BlokSrodkowy{
+    background-color: #90CAF9;
+    height: 400px;
+    width: 50%;
+    float: left;
+}
+
+footer{
+    clear: both;
+}
+table{
+    margin-left: 10px;
+    width: 90%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #90CAF9;
+}
+td{
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #90CAF9;
+}
+tr:hover{
+    color: #90CAF9;
+
+}
+input{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
